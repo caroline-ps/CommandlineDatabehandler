@@ -7,7 +7,7 @@ public interface IFileHander
     /// <param name="filePath">the path of the file to open</param>
     void ReadFileContent(string? filePath);
     /// <summary>
-    /// 
+    /// Writes the user input (content) at the end of the file specified at (filePath).
     /// </summary>
     /// <param name="filePath"></param>
     /// <param name="content">content to write to a file, this will append the written changes at the end of the file</param>
