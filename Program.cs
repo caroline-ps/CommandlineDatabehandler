@@ -12,6 +12,7 @@ class Program
         // fileHandler.AppendFileContent("./datasett.json", "This is an exercise made by Caroline");
 
         //Here I test the helper method given in the assignment to create a new json object. 
+        //I use a verbatim string to pass the content in the right json format without breaking c# string rules.
         fileHandler.AppendJsonContent("./datasett.json", @"{
         ""Navn"": ""Eventyr"",
         ""Kategori"": ""Litteratur"",
