@@ -13,4 +13,8 @@ The program creates an instance of my class and uses it.
 4. If the json file exists, write json content (no parsing).
 5. In program.cs, create an instance of the class and call it to run the program. 
 
+Exercise number 2
 
+//pseudo code//
+1. In FileHandler.cs, implement the AppendJsonContent method, so that the user can add content to the file. 
+2. In the program, call the method. 
