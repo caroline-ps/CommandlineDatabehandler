@@ -1,4 +1,4 @@
-public interface IFileHander
+public interface IFileHandler
 {
     /// <summary>
     /// Read the content of a given file. The file will be opened when it's path is given as a argument to this method.
