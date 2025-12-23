@@ -1,44 +1,56 @@
 [
-    {
-        "Navn": "Påskeegg",
-        "Kategori": "Symbol",
-        "Beskrivelse": "Dekorert egg fylt med godteri",
-        "Farge": "Gul"
-    },
-    {
-        "Navn": "Kvikklunsj",
-        "Kategori": "Mat",
-        "Beskrivelse": "Populær sjokolade i påsken",
-        "Farge": "Rød"
-    },
-    {
-        "Navn": "Skitur",
-        "Kategori": "Aktivitet",
-        "Beskrivelse": "Tradisjonell påskeaktivitet",
-        "Farge": "Hvit"
-    },
-    {
-        "Navn": "Påskelilje",
-        "Kategori": "Blomst",
-        "Beskrivelse": "Vanlig blomst i påsketider",
-        "Farge": "Gul"
-    },
-    {
-        "Navn": "Lammegryte",
-        "Kategori": "Mat",
-        "Beskrivelse": "Typisk påskemiddag",
-        "Farge": "Brun"
-    },
-    {
-        "Navn": "Kors",
-        "Kategori": "Symbol",
-        "Beskrivelse": "Kristen symbolikk i påsken",
-        "Farge": "Gull"
-    },
-    {
-        "Navn": "Krim",
-        "Kategori": "Underholdning",
-        "Beskrivelse": "Påskekrim er en norsk tradisjon",
-        "Farge": "Svart"
-    }
-]This is an exercise made by Caroline
+  {
+    "Navn": "P\u00E5skeegg",
+    "Kategori": "Symbol",
+    "Beskrivelse": "Dekorert egg fylt med godteri",
+    "Farge": "Gul"
+  },
+  {
+    "Navn": "Kvikklunsj",
+    "Kategori": "Mat",
+    "Beskrivelse": "Popul\u00E6r sjokolade i p\u00E5sken",
+    "Farge": "R\u00F8d"
+  },
+  {
+    "Navn": "Skitur",
+    "Kategori": "Aktivitet",
+    "Beskrivelse": "Tradisjonell p\u00E5skeaktivitet",
+    "Farge": "Hvit"
+  },
+  {
+    "Navn": "P\u00E5skelilje",
+    "Kategori": "Blomst",
+    "Beskrivelse": "Vanlig blomst i p\u00E5sketider",
+    "Farge": "Gul"
+  },
+  {
+    "Navn": "Lammegryte",
+    "Kategori": "Mat",
+    "Beskrivelse": "Typisk p\u00E5skemiddag",
+    "Farge": "Brun"
+  },
+  {
+    "Navn": "Kors",
+    "Kategori": "Symbol",
+    "Beskrivelse": "Kristen symbolikk i p\u00E5sken",
+    "Farge": "Gull"
+  },
+  {
+    "Navn": "Krim",
+    "Kategori": "Underholdning",
+    "Beskrivelse": "P\u00E5skekrim er en norsk tradisjon",
+    "Farge": "Svart"
+  },
+  {
+    "Navn": "Eventyr",
+    "Kategori": "Litteratur",
+    "Beskrivelse": "Eventyr har v\u00E6rt en viktig del av norsk fortellertradisjon",
+    "Farge": "Gr\u00F8nn"
+  },
+  {
+    "Navn": "Eventyr",
+    "Kategori": "Litteratur",
+    "Beskrivelse": "Eventyr har v\u00E6rt en viktig del av norsk fortellertradisjon",
+    "Farge": "Gr\u00F8nn"
+  }
+]

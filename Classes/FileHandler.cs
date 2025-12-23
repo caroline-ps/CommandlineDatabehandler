@@ -1,5 +1,5 @@
 using System.Data;
-
+using System.Text.Json;
 public class FileHandler : IFileHandler
 {
     //This method is implemented in #Exercise 2
@@ -20,6 +20,31 @@ public class FileHandler : IFileHandler
             Console.WriteLine( File.ReadAllText(filePath));
         }
     }
+
+    //Here I test the helper method given in the assignment. 
+    //It converts the json text into a list, then checks if a "json" list exists, if not it creates a new one. It then adds the new
+      //element to the list and converts it to json. If something goes wrong, it throws an error insteaf of corrupting the file. 
+    public void AppendJsonContent(string filePath, string newItemJson)
+{
+    string json = File.ReadAllText(filePath);
+    try
+    {
+        var array = JsonSerializer.Deserialize<List<JsonElement>>(json);
+
+        if (array == null)
+            array = new List<JsonElement>();
+
+        JsonElement newElement = JsonSerializer.Deserialize<JsonElement>(newItemJson);
+        array.Add(newElement);
+
+        string updatedJson = JsonSerializer.Serialize(array, new JsonSerializerOptions { WriteIndented = true });
+        File.WriteAllText(filePath, updatedJson);
+    }
+    catch (JsonException)
+    {
+        throw new InvalidOperationException("An error occured!");
+    }
+}
 
 //Checks if a file exists at the specified filepath. If it does, it writes the file content in the console. 
 //If the file doesnt exist it prints an error message to the console and crashes the program.
