@@ -5,7 +5,20 @@ public class FileHandler : IFileHandler
     //This method is implemented in #Exercise 2
     public void AppendFileContent(string? filePath, string? content)
     {
-        throw new NotImplementedException();
+        //The first two 'IFs' handle possible errors. 
+        if (filePath == null)
+        {
+            Console.WriteLine("No file path has been given.");
+        } else if (content == null)
+        {
+            Console.WriteLine("There is no content to append");
+        } else
+        //Here we append some text (no parsing) to the file at filepath location.
+        //Then we print the whole file content to check if append worked as expected. 
+        {
+            File.AppendAllText(filePath, content);
+            Console.WriteLine( File.ReadAllText(filePath));
+        }
     }
 
 //Checks if a file exists at the specified filepath. If it does, it writes the file content in the console. 

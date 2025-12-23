@@ -9,5 +9,6 @@ class Program
         //Calls the method ReadFileContent and gives the filepath in the current directory.
         //Method prints in the console the content of the json file (no parsing).
         fileHandler.ReadFileContent("./datasett.json");
+        fileHandler.AppendFileContent("./datasett.json", "This is an exercise made by Caroline");
     }
 }
